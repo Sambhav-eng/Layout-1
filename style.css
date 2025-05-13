@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Comic+Relief:wght@400;700&family=Tagesschrift&display=swap');
+*
+{
+   box-sizing: border-box;
+   background-color: rgba(250, 235, 215, 0.719);
+   padding: 0;
+   margin: 0;
+
+}
+nav ul
+{
+   display: flex;
+}
+
+nav ul li
+{
+  
+   background-color: aliceblue;
+   height: 30px;
+   margin:auto;
+   list-style-type: none;
+   border: 2px solid white;
+   border-radius: 10px;
+   top: 0;
+   font-size: 25px;
+}
+nav ul 
+{
+   height: 5vh;
+   background-color: bisque;
+   border: 2px solid white;
+   margin-left: 3px;
+   margin-right:3px;
+}
+nav
+{
+   position: sticky;
+   top: 0;
+}
+
+.container
+{
+   background-color: rgb(128, 190, 209);
+   margin: 15px;
+   padding: 10px;
+   padding-top: 50px; 
+   padding-bottom: 50px;
+   display: flex;
+   gap:5vw;
+}
+
+.box1
+{
+   background-color: rgb(236, 229, 221);
+   border: 2px solid;
+   margin-left: 5vw;
+   border-radius: 10px;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.box2
+{
+   border: 2px solid salmon;
+   border-radius: 10px;
+   background-color: rgb(236, 229, 221);
+   justify-content: flex-end;
+   margin-right: 5vw;
+   text-align: justify;
+   font-size: 20px;
+}
+
+.box3
+{
+   background-color: rgb(233, 255, 248);
+   margin: 30px;
+   border: 3px solid;
+   font-size: 45px;
+   font-family: monospace;
+   
+}
+.image
+{
+   position: fixed;
+   top: 87vh;
+   left: 93vw;
+   width: 80px;
+   height: 80px;
+   border: 2px solid rgb(211, 111, 111);
+   border-radius: 2000px;
+}
+
+footer
+{
+   font-size: 27px;
+   border: 5px solid rgb(247, 215, 215);
+   border-radius: 10px;
+   text-align: center;
+   background-color: rgb(241, 241, 234);
+}
